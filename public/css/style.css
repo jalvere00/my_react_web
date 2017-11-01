@@ -1,0 +1,12 @@
+body{
+	margin:0;
+}
+
+.header{
+	background-image:url(./img/sunrise2.jpg);
+	background-color:#f4f4f4;
+	background-size: cover;
+	padding: 30px 0 35px 0;
+	margin:0px;
+}
+
