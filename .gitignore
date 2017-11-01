@@ -42,8 +42,8 @@ jspm_packages
 .node_repl_history
 
 # webpack app bundle is not git friendly
-public/app.bundle.js
-public/app.bundle.js.map
+public/*/app.bundle.js
+public/*/app.bundle.js.map
 
 # nohup
 nohup.out
