@@ -1,5 +1,7 @@
 import ReactDOM from "react-dom";
 import React from 'react';
+import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
+import FlatButton from 'material-ui/FlatButton';
 
 const headerImage={
 	height:"450px", 
@@ -23,7 +25,9 @@ class Header extends React.Component{
 				<div style={headerImage}>
 					<h1>TEST Header</h1>
 				</div>
-
+				<Toolbar style={{justifyContent:"center"}}>
+					<ToolbarGroup><FlatButton label="Experience"/><ToolbarSeparator/><FlatButton label="About"/><ToolbarSeparator/><FlatButton label="Contact"/></ToolbarGroup>
+				</Toolbar>
 			</div>
 		)
 	}

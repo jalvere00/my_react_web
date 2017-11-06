@@ -32,7 +32,7 @@ module.exports ={
 						}
 					}
 				],
-				exclude:/flexboxgrid/
+				// exclude:/flexboxgrid/
 			}
 		]
 	}

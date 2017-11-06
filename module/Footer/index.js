@@ -1,10 +1,12 @@
 import ReactDOM from "react-dom";
 import React from "react";
-
+import {Row, Grid, Col} from "react-flexbox-grid";
 
 class Footer extends React.Component{
 	render(){
-		return <div><h1>Footer</h1></div>
+		return <div style={{height:"300px", backgroundColor:"black"}}>
+			
+		</div>
 	}
 }
 
